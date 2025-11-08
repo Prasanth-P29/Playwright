@@ -41,3 +41,58 @@ Initializing project in '.'
 We suggest that you begin by typing:
 
     npx playwright test
+
+
+    List of common HTML elements and their corresponding ARIA role
+
+HTML Element                                        ARIA Role
+
+<a href=" ... ">                                      link
+
+<area href=" ... ">                                   link
+
+<button>                                              button
+
+<form> (with name attribute)                          form
+
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>                    heading
+
+<header>                                              bannerI(context-specific)
+
+<img> (with alt)                                      img
+
+<input type="button">                                 button
+
+<input type="checkbox">                               checkbox
+
+<input type="email">                                  textbox
+
+<input type="password">                               textbox
+
+<input type="radio">                                  radio
+
+<input type="range">                                  slider
+
+<input type="reset">                                  button
+
+<input type="search">                                 searchbox
+
+<input type="submit">                                 button
+
+<input type="text">                                   textbox
+
+<li>                                                  listitem
+
+<ol>, <ul>                                            list
+
+<option>                                              option
+
+<select>                                              listbox (or combobox, depends on usage)
+
+<table>                                               table
+
+<tbody>, <thead>, <tfoot>                             rowgroup
+
+
+
+I
