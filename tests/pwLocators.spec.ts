@@ -70,7 +70,13 @@ test("Verify Page Logo", async ({page}) => {
 
     // 6. page.getByTitle() to locate an element by its title attribute.
     // When to use: When your element has a meaningful title attribute.
-    await page.goto("");
+    await page.goto("file:///C:/Users/pavan/OneDrive/Desktop/playwrightlocators.html")
+
+    //const link: Locator=page.getByTitle("Home page link")
+    //expect(link).toHaveText("Home");
+
+    await expect(page.getByTitle("Home page link")).toHaveText("Home");
+    await expect(page.getByTitle("HyperText Markup Language")).toHaveText("HTML");
 
 
 });
